@@ -1,0 +1,73 @@
+/* General Body Styling*/
+
+body {
+    background-color: #f8f9fa; /* subtle light grey for clean look */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card Styling */
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* gentle shadow for depth */
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 1rem;
+}
+
+/* Card Header */
+
+.card-header {
+    background-color: #f8f9fa; /* match body for consistency */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: 600;
+}
+
+/* Navbar Branding */
+
+.navbar-brand {
+    font-weight: 600; /* bold for emphasis */
+}
+
+/* Progress Bars */
+
+.progress {
+    height: 8px;
+    border-radius: 0.25rem;
+}
+
+/*  Badges */
+
+.badge {
+    font-size: 0.75em; /* small and clean */
+}
+
+/* Alerts */
+
+.alert {
+    border: none;
+    border-radius: 0.5rem; /* rounded alert boxes */
+}
+
+/* Table Styling */
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+    color: #495057; /* subtle dark grey */
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 0.375rem; /* slightly rounded for modern look */
+}
+
+/* Typography */
+
+.display-4 {
+    font-weight: 300;
+    color: #495057; /* gentle dark text */
+}
+
+.lead {
+    color: #6c757d; /* muted text for subheadings or description */
+}
